@@ -11,3 +11,6 @@ It is used for managing authentication and database
 
 ### react-router-dom
 For easy routing 
+
+### redux react-redux
+For state management
