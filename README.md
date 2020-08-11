@@ -20,13 +20,14 @@ For easy routing
 
 To Collaborate,
 
-Fork the repository
-Clone the fork to your local machine
-Work on the forked repo
-Commit your work
-Push to your fork
-Submit a pull request (PR) from your fork to submit your work 
-Please use comments!
+* Fork the repository
+* Clone the fork to your local machine
+* Work on the forked repo
+* Commit your work
+* Push to your fork
+* Submit a pull request (PR) from your fork to submit your work 
+
+*Please use comments!* 
 
 ## Docs
 
