@@ -12,6 +12,10 @@ It is used for managing authentication and database
 ### react-router-dom
 For easy routing 
 
+
+### redux react-redux
+For state management
+
 ## Contributors
 
 @Caleb-Omoijuanfo, @Abdulmuqit, @Femi, @Femzykel, @FitzGerald Kachi, @Lequte, @Raji Mustapha, @SalvadorLekan, @segun.em, @tumise
@@ -34,4 +38,5 @@ To Collaborate,
 https://docs.google.com/document/d/1EVp2QnToMPOJ_txocJo0hv5eRErgEN9czhn-wkYXPLs/edit?usp=sharing
 
 Task tracker: https://docs.google.com/spreadsheets/d/1M018z2wu7U4IQ8zKculYHpvhNN-9NwLpaVvhleoWlyY/edit?usp=sharing
+
 
