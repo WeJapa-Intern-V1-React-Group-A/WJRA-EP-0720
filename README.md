@@ -3,14 +3,15 @@
 
 Please follow these steps to collaborate on this project. Adhere strictly to these rules. This is very important so that we don’t break things.
 
-*Fork the repository. 
-*Clone the fork to your local machine
-*Work, commit and push to your fork. 
-*When you are done, submit a pull request (PR) so that your code can be added to the repository
+* Fork the repository. 
+* Clone the fork to your local machine
+* Work, commit and push to your fork. 
+* When you are done, submit a pull request (PR) so that your code can be added to the repository
 
 *Please use comments!* 
 
-**Always update your fork before you submit your code (via a PR) to prevent conflicts. **
+**Always update your fork before you submit your code (via a PR) to prevent conflicts.**
+
 It is recommended to work on a different branch other than master. 
 Name the branch you are working on after your slack username. *e.g. $ git checkout -b salvador*
 
