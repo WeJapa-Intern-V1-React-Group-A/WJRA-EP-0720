@@ -16,7 +16,7 @@ function ShopHeader() {
                     IDEAL OF 9JA
                 </div>
                 <div>
-                    iPhone11 Pro <FiChevronDown />
+                   <p> iPhone11 Pro <FiChevronDown /></p>
                     <FiHeart />
                     <RiShoppingBagLine />
                 </div>
@@ -25,7 +25,7 @@ function ShopHeader() {
             <ShopNav/>
             </div>
                       
-        </header>
+        </header> 
         </div>
     )
 }
