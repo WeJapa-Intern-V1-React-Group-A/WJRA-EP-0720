@@ -3,10 +3,12 @@ import ShopNav from '../ShopNav/ShopNav'
 
 function ShopHeader() {
     return (
-        <header>
+        <div className="shopheader-container">
+            <header>
             Header
             <ShopNav/>
         </header>
+        </div>
     )
 }
 
