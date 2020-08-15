@@ -13,8 +13,7 @@ function ShopNav() {
                         <li>pants</li>
                         <li>skirts</li>
                         <li>outfits</li>
-                        <li>head wears</li>
-                        <li>inner wears</li>
+                        <li>other wears</li>
                         <li>accessories</li>
                     </ul>
             </nav>
