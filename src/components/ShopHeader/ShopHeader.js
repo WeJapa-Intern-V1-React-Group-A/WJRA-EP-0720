@@ -27,8 +27,14 @@ const ShopHeader = ({cart_dropdown, search_dropdown, sidebar_dropdown, favs_drop
 
     return (
         <div className="shopcontainer">
-            
+{/* top nav split in 3 divs, one contains search and navbar icons, 
+another contains title and last one contains favorite 
+and cart icons and sign in and register*/}
+
             <div className="shopheader-container">
+                
+                {/* search and side navbar icons (both are imported as components so as to t
+                    rigger rending Search and SideMenu components*/}
                 <div className='logo-nav'>
                     
                         <div className='h-logo'>
@@ -42,14 +48,17 @@ const ShopHeader = ({cart_dropdown, search_dropdown, sidebar_dropdown, favs_drop
                        </div>
                 </div>
 
-
+                {/* start of second div. Contains title*/}
                 <div className="title-nav">
                     <Link to='/'> <span> IDEAL OF 9JA </span> </Link>
                 </div>
 
-
+                    {/* start of last div */}
                 <div className="logo-nav"> 
                   
+                  {/* added a conditional statement (that will be modified later on) 
+                  for displaying of SIGN OUT or SIGN IN & REGISTER. 
+                  If user is logged in, only SIGNOUT will be rendered*/}
                   {(2===3) ? <span> SIGNOUT</span> :  (<div className='sign-in-register' ><Link to='/signin'>
                       <span > SIGN IN </span> </Link> 
                       <Link to='/signup' > <span> REGISTER </span></Link></div>) }
@@ -66,13 +75,15 @@ const ShopHeader = ({cart_dropdown, search_dropdown, sidebar_dropdown, favs_drop
                     </div>
                 </div>
             </div>
-            
+            {/* shopnav component is imported to display secondary navs*/}
             <ShopNav />
  
         </div>
     )
 }
 
+{/* states brought in from redux store. They all toggle dropdown of components. 
+Each state item has a reducer listed in rootReducer.js. rootReducer is then passed to store.js */}
 const mapStateToProps = ({cart:{cart_dropdown}, search:{search_dropdown}, sidebar:{sidebar_dropdown}, favs:{favs_dropdown}})=>(
     { cart_dropdown,
         search_dropdown,
