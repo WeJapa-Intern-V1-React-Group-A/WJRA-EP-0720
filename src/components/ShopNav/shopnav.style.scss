@@ -1,0 +1,21 @@
+.shopnav-container{
+     height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    .side-item{
+        font-size: 0.8em;
+        margin: 0 15px;
+        
+    }
+
+    
+}
+
+li{
+    display: inline;
+    margin: 0 20px;
+    font-size: 0.8em;
+}

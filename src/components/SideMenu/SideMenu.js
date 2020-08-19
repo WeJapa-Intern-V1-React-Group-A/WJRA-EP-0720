@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function SideMenu() {
+
+import './sidemenu.style.scss'
+
+const SideMenu = () => {
     return (
-        <div>
-            
+        <div className='sidemenu-container'>
+            <h6>Side menu</h6>
         </div>
     )
-}
+} 
 
 export default SideMenu

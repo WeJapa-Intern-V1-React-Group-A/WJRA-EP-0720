@@ -1,0 +1,44 @@
+
+    
+    .shopheader-container {
+        height: 50px;
+        width: 100%;
+        display: flex;       
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        
+        
+        .title-nav {
+            span {
+                letter-spacing: 5px;
+                 font-weight: bold;
+                font-size: 1.2em;
+            }
+        }
+
+        .logo-nav{
+            div{
+                display: inline;
+                margin-right: 20px;
+                cursor: pointer;
+                span{
+                    margin-right: 10px;
+                    font-size: 0.8em;
+                }
+            }
+            .h-logo {
+                
+                margin-right: 15px;
+            }   
+        } 
+
+        .h-logo {
+            margin-left: 15px;
+            
+        }        
+    }
+
+
+
+
